@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scal=1">
+	<meta name="description" content="A basic Hello world example for bootstrap">
+	<meta name="author" content="Your name">
+	<title>Registration</title>
+
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="basic-templatecopy.css">
+	<body>
+
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigaion">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-container">
+						<span class="sr-only">Show and hide the Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="1.jpg" class="brand" />
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-container">
+					<ul class="nav navbar-nav">
+						<li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-book"></span> About Us</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-question-sign"></span> Contact Us <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#"><span class="glyphicon glyphicon-phone"></span> Phone</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-comment"></span> Email</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Mail</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Driving Directions</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<center><h3>REGISTRATION FORM</h3></center>
+		<div class="container">
+		<div class="container col-md-6 padding-top-10">
+            <div class="panel panel-default">
+                <div class="panel-heading">Personal Details</div>
+                <div class="panel-body">
+                	<form>
+                		<div class="row padding-top-10 col-md-10">
+                			<label for="firstName" class="control-label">First Name :</label>
+                			<input type="text" class="form-control" id="firstName" placeholder="Enter your first name" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="lastName" class="control-label">Last Name :</label>
+                			<input type="text" class="form-control" id="lastName" placeholder="Enter your last name" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="address" class="control-label">Address :</label>
+                			<input type="text" class="form-control" id="address" placeholder="Enter your address" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="mobile" class="control-label">Mobile No :</label>
+                			<input type="text" class="form-control" id="mobile" placeholder="Enter your mobile number" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="email" class="control-label">Email Address :</label>
+                			<input type="text" class="form-control" id="email" placeholder="Enter your email address" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="username" class="control-label">Username :</label>
+                			<input type="text" class="form-control" id="username" placeholder="Enter your username" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="password" class="control-label">Password :</label>
+                			<input type="password" class="form-control" id="password" placeholder="Enter a new password" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="confirmpassword" class="control-label">Confirm Password :</label>
+                			<input type="text" class="form-control" id="confirmpassword" placeholder="Please confirm your password" />
+                		</div>
+                </div>
+            </div>
+       	</div>
+       
+       	<div class="container col-md-6 padding-top-10">
+            <div class="panel panel-default">
+                <div class="panel-heading">Academic Details</div>
+                <div class="panel-body">
+                		<div class="row padding-top-10 col-md-10">
+                			<label for="tenth" class="control-label">10th Percentage :</label>
+                			<input type="text" class="form-control" id="tenth" placeholder="Enter your 10th board %" />
+                		</div>
+                		<div class="row padding-top-10 col-md-10">
+                			<label for="twelve" class="control-label">12th Percentage :</label>
+                			<input type="text" class="form-control" id="twelve" placeholder="Enter your 12th board %" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="program" class="control-label">Programme :</label>
+                			<select id="program" class="form-control">
+                				<option value="text">Plain Text</option>
+                                <option value="html">HTML</option>
+                			</select>
+                		</div>
+                		<div class="row padding-top-10 col-md-10">
+                			<label for="registrationno" class="control-label">Resitration No :</label>
+                			<input type="text" class="form-control" id="registrationno" placeholder="Enter your registration number" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="dept" class="control-label">Department :</label>
+                			<select id="dept" class="form-control">
+                				<option value="text">Plain Text</option>
+                                <option value="html">HTML</option>
+                			</select>
+                		</div>
+                		<div class="row padding-top-10 col-md-10">
+                			<label for="roll" class="control-label">Roll No :</label>
+                			<input type="text" class="form-control" id="roll" placeholder="Enter your roll number" />
+                		</div>
+                		<div class="row col-md-10 padding-top-10">
+                			<label for="sem" class="control-label">Semester :</label>
+                			<select id="sem" class="form-control">
+                				<option value="text">Plain Text</option>
+                                <option value="html">HTML</option>
+                			</select>
+                		</div>
+                		<div class="row padding-top-10 col-md-10">
+                                <button type="button" class="btn btn-success">Register</button>
+                        </div>
+                	</form>
+                </div>
+                </div>
+            </div>
+       	</div>
+		</div>
+
+		<!--
+			Bootstrap javascript and jQuery should be loaded 
+			Placed at the end of the document for faster load times
+		-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

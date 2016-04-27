@@ -1,0 +1,19 @@
+body{
+	background-image: url("orange-wallpaper-20.jpg");
+}
+.navbar{
+    background-color: black;
+}
+.navbar ul li:hover{
+    background-color: #0D6;
+}
+.brand{
+	width: 60px;
+    height: 56px;
+    position: relative;
+    bottom: 20px;
+}
+.padding-top-10{
+	padding-top: 50px;
+}
+

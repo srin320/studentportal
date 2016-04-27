@@ -1,0 +1,19 @@
+body{
+    margin-top: 60px;
+}
+
+.padding-top-10{
+    padding-top: 10px;
+}
+
+/*.form-control{
+    width: 100px;
+}*/
+
+
+.brand{
+	width: 60px;
+    height: 56px;
+    position: relative;
+    bottom: 20px;
+}
